@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: rabbitmq-consumer-todo
+
+rabbit:
+  url: localhost
+  port: 5672
+  exchange: noname
+  user: guest
+  pass: guest
+  todo:
+    queue: tasks
